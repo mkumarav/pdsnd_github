@@ -51,12 +51,12 @@ def get_filters():
     print('Welcome! Thank you for your interest in exploring US bikeshare data!\nLet\'s get your preferences.\n')
     time.sleep(3)
     
-    #declaring nicknames to use for a personalized and interactive experience with the user
+    #Declaring nicknames to use for a personalized and interactive experience with the user
     city_nickname = { 'chicago': 'The Windy city',
                       'new york city': 'The Big Apple',
                       'washington': 'Our Nation\'s Capital' }
     
-    #declaring possible alternate entries for New York city by users
+    #Declaring possible alternate entries for New York city by users
     new_york_city_altnames=['new york','newyork','newyorkcity','newyork city','new yorkcity']
     
     #Get user input for city (chicago, new york city, washington). 
