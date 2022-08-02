@@ -25,7 +25,6 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 
 #Assigning a few global variables to use in functions
-
 #Create a dictionary that holds all month names mapped to month number eg.'january': 1
 calendar_months= [name.lower() for name in calendar.month_name[1:]]
 month_dict={calendar_months[i]:i+1 for i in range(len(calendar_months))}
@@ -121,7 +120,7 @@ def get_filters():
 
 def prep_data(city):
     """
-    Loads data for the specified city and splits for granular data
+    Loads data for the specified city and splits datatime values for granular data
     Args:
         (str) city - name of the city to analyze
     Returns:
@@ -488,7 +487,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-    
+        #Offering user the choice to restart or end
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() not in ('yes','y'):
             print("Thank you for reviewing bikeshare data. Have a great day!\n")
