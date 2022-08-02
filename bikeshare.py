@@ -25,7 +25,6 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 
 #Assigning a few global variables to use in functions
-
 #Create a dictionary that holds all month names mapped to month number eg.'january': 1
 calendar_months= [name.lower() for name in calendar.month_name[1:]]
 month_dict={calendar_months[i]:i+1 for i in range(len(calendar_months))}
