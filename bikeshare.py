@@ -487,7 +487,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-    
+        #Offering user the choice to restart or end
         restart = input('\nWould you like to restart? Enter yes or no.\n')
         if restart.lower() not in ('yes','y'):
             print("Thank you for reviewing bikeshare data. Have a great day!\n")
