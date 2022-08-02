@@ -1,17 +1,21 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
 
 ### Date created
-Include the date you created this project and README file.
+8/1/2022
 
-### Project Title
+### Data Science: Exploratory Data Analysis of BikeShare data
 Replace the Project Title
 
 ### Description
-Describe what your project is about and what it does
+This project analyzes the bikeshare data of three popular cities in the United States - Washington, New York, and Chicago. Analysis includes descriptive statistics, filters and grouping by month/day of week etc as well as useful visuals and charts for further analysis. The project offers an interactive experience to the user by capturing their preferences and then serving them with relevant analytics as well as raw data.
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Pandas examples: https://www.geeksforgeeks.org/
+Pandas reference: https://pandas.pydata.org/docs/
+NumPy reference: https://numpy.org/devdocs/reference/index.html
+Plots: https://www.shanelynn.ie/bar-plots-in-python-using-pandas-dataframes/
 
