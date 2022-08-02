@@ -121,7 +121,7 @@ def get_filters():
 
 def prep_data(city):
     """
-    Loads data for the specified city and splits for granular data
+    Loads data for the specified city and splits datatime values for granular data
     Args:
         (str) city - name of the city to analyze
     Returns:
