@@ -14,8 +14,8 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-Pandas examples: https://www.geeksforgeeks.org/
 Pandas reference: https://pandas.pydata.org/docs/
 NumPy reference: https://numpy.org/devdocs/reference/index.html
 Plots: https://www.shanelynn.ie/bar-plots-in-python-using-pandas-dataframes/
+Pandas examples: https://www.geeksforgeeks.org/
 
